@@ -1,1 +1,19 @@
+.navBackground{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+    font-size: 30px;
+}
 
+.navHome {
+    margin: 1%;
+}
+.navDog {
+    margin: 1%;
+}
+.navCat {
+    margin: 1%;
+}
+.navFinal {
+    margin: 1%;
+}
