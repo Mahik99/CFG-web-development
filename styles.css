@@ -1,19 +1,49 @@
-.navBackground{
+body {
+  font-family: "Livvic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 2.5%;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: auto;
+    margin-top: 10px; }
+
+  .navBackground{
     display: flex;
-    justify-content: flex-end;
-    margin: 2%;
-    font-size: 30px;
+    font-size: 25px;
+}
+.navLinks {
+ padding-right: 30px;
+ padding-top: 5px;
+ margin: 2%;
+ text-decoration: none;
+
+}
+.nav a {
+ text-decoration: none;
+}
+.nav a:hover {
+ color: rgb(221, 117, 221);
 }
 
-.navHome {
-    margin: 1%;
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    font-size: 35px;
 }
-.navDog {
-    margin: 1%;
-}
-.navCat {
-    margin: 1%;
-}
-.navFinal {
-    margin: 1%;
-}
+
+.introContainer{
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.intro {
+    display: flex;
+    margin: 5%;
+    font-size: 25px;}
