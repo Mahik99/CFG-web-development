@@ -3,7 +3,10 @@ body {
   font-weight: 300;
   font-style: normal;
   margin: 1%;
-  }
+  background-image: url(pink.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
   
   .logo {
     width: 30px;
@@ -78,7 +81,6 @@ align-items: center;}
       box-sizing: border-box;
   justify-content: center;
     }*/
-    
     .title2 {
       display: flex;
       align-items: center;
