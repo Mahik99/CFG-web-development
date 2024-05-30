@@ -54,7 +54,10 @@ align-items: center;}
     display: flex;
     margin: 5%;
     font-size: 25px;}
-
+.paw{
+  align-items: flex-end; property;
+  flex-direction: row;
+}
     h2 {
       font-family: "Dancing Script", cursive;
       font-optical-sizing: auto;
