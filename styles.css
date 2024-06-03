@@ -61,12 +61,12 @@ body {
     position: absolute;
 }
   
-  h2 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
+ h2 {
+        font-family: "Edu TAS Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;      
+        text-align: center;
   }
   
   .container {
