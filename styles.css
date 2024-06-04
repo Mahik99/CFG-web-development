@@ -2,8 +2,8 @@ body {
   font-family: "Livvic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 1%;
-background-image: url(pink.png);
+  margin: 2%;
+background-image: url(background2.png);
   background-repeat: repeat;
   background-size:cover;
 }
@@ -18,7 +18,7 @@ background-image: url(pink.png);
   .navBackground{
     display: flex;
     font-size: 25px;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 
 }
 .navLinks {
@@ -27,17 +27,22 @@ background-image: url(pink.png);
       justify-content: center;
       margin: 2%;
       color: grey;
+      font-family:"carlmarx", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 30px;
 }
 .nav {
   display: flex;
  padding-right: 20px;
  font-weight: 400;
+ color: #E78091;
 }
 .nav a {
  text-decoration: none;
 }
 .nav a:visited {
-  color:  rgb(226, 139, 180)}
+  color:#E78091}
 
 .nav a:hover {
  color: crimson;
@@ -76,6 +81,8 @@ clip-path: circle(40%);
     align-items: center;
     margin: 2%;
     font-size: 35px;
+    background-color: #E78091;
+    border-radius: 25px;
 }
 
 .introContainer{
@@ -86,7 +93,12 @@ align-items: center;}
 .intro {
     display: flex;
     margin: 5%;
-    font-size: 25px;}
+    font-size: 30px;
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+   }
 
 .pawContainer {
   display: flex;
@@ -163,7 +175,13 @@ margin: 3%;
     margin: 5px;  
     font-size: 0.9em;  
   }
-
+.pawContainer{
+  display: flex;
+  flex-direction: row;
+}
+.pawUp{
+flex-direction: row;
+}
   .footer {
     display: inline;
     margin: 3%;
