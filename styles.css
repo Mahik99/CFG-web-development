@@ -7,17 +7,19 @@ background-image: url(pink.png);
   background-repeat: repeat;
   background-size:cover;
 }
-  
-  .logo {
+
+ .logo {
     width: 30px;
     height: 30px;
     margin-right: auto;
     margin-top: 10px; }
-
+    
+   
   .navBackground{
     display: flex;
     font-size: 25px;
-  
+    margin-bottom: 4%;
+
 }
 .navLinks {
   display: flex;
@@ -38,7 +40,7 @@ background-image: url(pink.png);
   color:  rgb(226, 139, 180)}
 
 .nav a:hover {
- color: rgb(226, 139, 180);
+ color: crimson;
 }
 
 #carouselSlidesOnly {
@@ -61,7 +63,6 @@ margin: 2%;
 clip-path: circle(40%);
 
 }
-<<<<<<< HEAD
 .carousel-item {
   max-width: 100%;
   clip-path: circle(40%);
@@ -86,6 +87,7 @@ align-items: center;}
     display: flex;
     margin: 5%;
     font-size: 25px;}
+
 .pawContainer {
   display: flex;
   align-items: center;
@@ -97,142 +99,15 @@ align-items: center;}
   justify-content: center;
   margin: 1%;
 }
-    h2 {
-      font-family: "Dancing Script", cursive;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      text-align: center;
-    }
-    
 
 
-.container {
-  display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 10%;
-}
-
-    /*.container {
-      max-width: 1200px;
-      width: 100%
-      grid-template-columns: 1fr;
-      gap: 20px;
-      padding: 20px;
-      box-sizing: border-box;
-  justify-content: center;
-    }*/
-    .title2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .profile-card {
-      background: white;
-      padding: 10px;  
-      border-radius: 10px;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-      max-width: 350px;  
-      margin: 0 auto;
-      justify-content: center;   
-    }
-    
-    .profile-card:hover {
-      transform: translateY(-10px);
-    }
-    
-    .profile-image {
-      width: 100%;
-      height: 200px; 
-      border-radius: 10px;
-      object-fit: cover;  
-    }
-    
-    .profile-content {
-      margin-top: 10px;  
-    }
-    
-    .profile-content p {
-      margin: 5px;  
-      font-size: 0.9em;  
-    }
-    .footer {
-      display: inline;
-      margin: 3%;
-      text-align: center;
-    }
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
-      flex-direction: row;
-    }
-    
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-      margin: 1%;
-    }
-    .fa-instagram {
-      background: #125688;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-pinterest {
-      background: #cb2027;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-instagram {
-      background: #125688;
-      margin: 1%;
-    }
-    
-=======
-.navFinal {
-    margin: 1%;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+ h2 {
+        font-family: "Edu TAS Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;      
+        text-align: center;
   }
-
-  header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.navbar-brand:hover {
-    color: crimson !important;
-}
-
   h1 {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -245,31 +120,19 @@ body {
     position: relative;
   }
 
+    .title2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-  .logo {
-    height: 30px;
-    float:left ;
-    margin-top: -10px;
-    position: absolute;
-}
-  
- h2 {
-        font-family: "Edu TAS Beginner", cursive;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;      
-        text-align: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-  }
+    }
+    .container{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin: 3%;
+
+    }
   
   .profile-card {
     background: white;
@@ -278,7 +141,7 @@ body {
     box-shadow: 0 4px 8px crimson;
     transition: transform 0.3s;
     max-width: 350px;  
-    margin: 0 auto;   
+    margin: 2%;   
   }
   
   .profile-card:hover {
@@ -300,4 +163,54 @@ body {
     margin: 5px;  
     font-size: 0.9em;  
   }
->>>>>>> 8126884e790aa348a278fa1a5eb8eb9dfc99efc7
+
+  .footer {
+    display: inline;
+    margin: 3%;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    flex-direction: row;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 1%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 1%;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    margin: 1%;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    margin: 1%;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    margin: 1%;
+  } 
+  
+.navFinal {
+  margin: 1%;
+}
