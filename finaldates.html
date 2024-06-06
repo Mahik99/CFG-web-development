@@ -35,7 +35,7 @@
         <img src ="C:\Users\hopei\OneDrive\My Documents\group-3-ck24ukh4\group-3-ck24ukh4\finaldateicon.png">
         <a href="C:\Users\hopei\OneDrive\My Documents\group-3-ck24ukh4\group-3-ck24ukh4\finaldates.html">Your Final Dates</a></div>
       </div></div>
-    <div class="container">
+    <!--<div class="container">
       <article class="profile-card">
         <h2>Date1</h2>
         <img src="https://www.shutterstock.com/image-photo/cat-sings-into-microphone-funny-600nw-2342223897.jpg" alt="singing cat" class="profile-image">
@@ -71,14 +71,32 @@
           <p><strong>Likes:</strong></p>
           <p><strong>Dislikes:</strong></p>
       </div>
-      </article>
+      </article>-->
+      <div class="finalFormContainer">
+<div class="finalDateForm">
+  <div class="finalDateExplain">
+  <h3>Congratulations!<br><br> You have finally made it through all of our potential dates and now its time to decide.<br>Simply fill out this form and you will see if you have a Pawfect match!</h3></div>
+  <form id = "form" action="/action_page.php" onsubmit="myFunction()"></form>
+    <label for="name">What is your name?</label><br>
+    <input type="text" id="name"><br>
+    <label for="Cname">What is your companions name?</label><br>
+    <input type="text" id="Cname"><br>
+    <label for="fancy">What is the name of the fluffy friend your friend fancies?</label><br>
+    <input type="text" id="fancy"><br>
+    <label for="date">Why do you think your companion and your chosen pawfect date would be a good match?</label><br>
+    <textarea name="message" rows="5" cols="50" id="date"></textarea><br>
+    <input onclick="submitFunction()" type="submit" id="sumbit" value="Sumbit to see if you have a Pawfect Match!">
+  </form>
+  <h2 id="response"></h2>
+</div>
+</div>
       <div class="footer">
         <footer><a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-pinterest"></a>
         </footer></div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="C:\Users\hopei\OneDrive\My Documents\group-3-ck24ukh4\group-3-ck24ukh4\javascript.js"></script>
   </div>
 </body>
 </html>
