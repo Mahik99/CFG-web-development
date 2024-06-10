@@ -152,7 +152,7 @@ body {
 }
 
     .container2 {
-    display: none;
+    display: none !important;
     /*justify-content: center;
     box-sizing: border-box;
     max-width: 1200px;
