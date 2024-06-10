@@ -140,7 +140,7 @@ body {
 
      .container1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     max-width: 1200px;
     max-height: 1200px;
@@ -153,7 +153,7 @@ body {
 
      .container2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     max-width: 1200px;
     max-height: 1200px;
@@ -161,7 +161,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
-    align-items:center;
+    align-items: center;
 }
 
 
