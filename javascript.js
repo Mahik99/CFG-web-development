@@ -6,6 +6,10 @@ function buttonClick(currentContainer, nextContainer) {
         document.getElementById(nextContainer).classList.add('slide-in');
     }, { once: true });
 }
+
+document.getElementById('yes-button').addEventListener('click', goToFinalDatesPage);
+document.getElementById('no-button').addEventListener('click', closeFinalDatesPopup);
+
 /*
 const likedProfiles = [];
 function handleButtonClick(currentContainer, nextContainer, action, profile) {
