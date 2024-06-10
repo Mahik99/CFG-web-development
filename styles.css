@@ -153,6 +153,8 @@ align-items: center;
 border-radius: 10%;
 border-style:hidden;
 background: hidden;
+    height: 200;
+    width: 200;
 }
 
 .dislikeButton {
@@ -161,6 +163,8 @@ background: hidden;
 border-radius: 10%;
 border-style: hidden;
 background: hidden;
+     height: 200;
+    width: 200;
 }
 
       .hidden {
