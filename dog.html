@@ -117,16 +117,15 @@
     </article>
         </div>
 <div>
-    <button class="dislikeButton"><img src="dislike.png" alt="dislike button" width="200" height="200"></button>
-</div>
-</div>
-</div>  
+          <button class="dislikeButton" onclick="showPopup()"><img src="dislike.png" alt="dislike button" width="200" height="200"></button>
+        </div>
+    </div>
 
-        <div id="final-dates-popup" class="popup hidden">
-        <div class="popup-content">
-            <h2>Are you ready to choose your final date?</h2>
-            <button id="yes-button" class="popup-button">Yes</button>
-            <button id="no-button" class="popup-button">No</button>
+    <div id="popup" class="popup">
+        <p>Do you want to view your final dates?</p>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
         </div>
     </div>
 
