@@ -239,7 +239,9 @@ background: hidden;
       box-shadow: 0 4px 8px crimson;
       transition: transform 0.3s;
       max-width: 350px;  
-      margin: 2%;   
+      margin: 2%;
+    justify-content: center;
+    align-items: center;
     }
     
     .profile-card:hover {
