@@ -151,7 +151,7 @@ body {
     align-items:center;
 }
 
-     .container2 {
+    /* .container2 {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -162,7 +162,7 @@ body {
     grid-template-columns: 1fr;
     gap: 50px;
     align-items: center;
-}
+}*/
 
 
     .button-container {
