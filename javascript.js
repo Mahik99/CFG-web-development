@@ -6,22 +6,22 @@ function buttonClick(currentContainer, nextContainer) {
         document.getElementById(nextContainer).classList.add('slide-in');
     }, { once: true });
 }
-    function buttonClick(currentContainer, nextContainer) {
-            document.getElementById(currentContainer).style.display = 'none';
-            document.getElementById(nextContainer).style.display = 'block';
-        }
+    // function buttonClick(currentContainer, nextContainer) {
+    //         document.getElementById(currentContainer).style.display = 'none';
+    //         document.getElementById(nextContainer).style.display = 'block';
+    //     }
 
-        function showPopup() {
-            document.getElementById('popup').style.display = 'block';
-        }
+    //     function showPopup() {
+    //         document.getElementById('popup').style.display = 'block';
+    //     }
 
-        document.getElementById('yesButton').addEventListener('click', function() {
-            window.location.href = 'https://hopeivy12.github.io/group-3-ck24ukh4/finaldates.html';
-        });
+    //     document.getElementById('yesButton').addEventListener('click', function() {
+    //         window.location.href = 'https://hopeivy12.github.io/group-3-ck24ukh4/finaldates.html';
+    //     });
 
-        document.getElementById('noButton').addEventListener('click', function() {
-            document.getElementById('popup').style.display = 'none';
-        });
+    //     document.getElementById('noButton').addEventListener('click', function() {
+    //         document.getElementById('popup').style.display = 'none';
+    //     });
 /*
 const likedProfiles = [];
 function handleButtonClick(currentContainer, nextContainer, action, profile) {
