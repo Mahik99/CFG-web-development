@@ -154,7 +154,7 @@ body {
     .container2 {
     display: none !important;
      position: fixed;
-    /*justify-content: center;
+    justify-content: center;
     box-sizing: border-box;
     max-width: 1200px;
     max-height: 1200px;
@@ -162,7 +162,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
-    align-items: center;*/
+    align-items: center;
 }
 .slide-out{
      display: none !important;
