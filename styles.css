@@ -175,13 +175,13 @@ margin: 3%;
     margin: 5px;  
     font-size: 0.9em;  
   }
-.pawContainer{
+/*.pawContainer{
   display: flex;
   flex-direction: row;
 }
 .pawUp{
 flex-direction: row;
-}
+}*/
   .footer {
     display: inline;
     margin: 3%;
