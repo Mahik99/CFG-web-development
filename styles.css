@@ -151,9 +151,9 @@ body {
     align-items:center;
 }
 
-    /* .container2 {
-    display: flex;
-    justify-content: center;
+    .container2 {
+    display: none;
+    /*justify-content: center;
     box-sizing: border-box;
     max-width: 1200px;
     max-height: 1200px;
@@ -161,8 +161,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
-    align-items: center;
-}*/
+    align-items: center;*/
+}
 
 
     .button-container {
