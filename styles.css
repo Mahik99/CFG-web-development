@@ -1,389 +1,382 @@
 body {
-    font-family: "Livvic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 2%;
-  background-image: url(background2.png);
-    background-repeat: repeat;
-    background-size:cover;
-  }
-  
-   .logo {
-      width: 30px;
-      height: 30px;
-      margin-right: auto;
-      margin-top: 10px; }
-      
-     
-    .navBackground{
-      display: flex;
-      font-size: 25px;
-      margin-bottom: 2%;
-  
-  }
-  .navLinks {
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 2%;
-        color: grey;
-        font-family:"carlmarx", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 30px;
-  }
-  .nav {
-    display: flex;
-   padding-right: 20px;
-   font-weight: 400;
-   color: #E78091;
-  }
-  .nav a {
-   text-decoration: none;
-  }
-  .nav a:visited {
-    color:#E78091}
-  
-  .nav a:hover {
-   color: crimson;
-  }
-  
-  #carouselSlidesOnly {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 2%;
-    width: 170%;
-    height: 170%;
-    clip-path: circle(40%);
-    transition: 3.5s ease;
-  }
-  
-  .carousel-item:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-    
-  }
-  
-  .carousel-inner{
+  background-image: url(background2.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.navBackground {
+  display: flex;
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  color: grey;
+  font-family: "carlmarx", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  padding-right: 20px;
+  font-weight: 400;
+  color: #e78091;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a:visited {
+  color: #e78091;
+}
+
+.nav a:hover {
+  color: crimson;
+}
+
+#carouselSlidesOnly {
+  margin: 2%;
+  width: 170%;
+  height: 170%;
   clip-path: circle(40%);
-  
-  }
-  .carousel-item {
-    max-width: 100%;
-    clip-path: circle(40%);
-    transition: clip-path 1s;
-    transition: 1s ease;
-  }
-  
-  .title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 2%;
-      font-size: 35px;
-      background-color: #E78091;
-      border-radius: 25px;
-  }
-  
-  .introContainer{
+  transition: 3.5s ease;
+}
+
+.carousel-item:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.carousel-inner {
+  clip-path: circle(40%);
+}
+.carousel-item {
+  max-width: 100%;
+  clip-path: circle(40%);
+  transition: clip-path 1s;
+  transition: 1s ease;
+}
+
+.title {
   display: flex;
   justify-content: center;
-  align-items: center;}
-  
-  .intro {
-      display: flex;
-      margin: 5%;
-      font-size: 30px;
-      font-family: "Edu TAS Beginner", cursive;
-      font-optical-sizing: auto;
-      font-weight: 400;
-  
-     }
-  
-   h2 {
-          font-family: "Edu TAS Beginner", cursive;
-          font-optical-sizing: auto;
-          font-weight: 500;
-          font-style: normal;      
-          text-align: center;
-    }
-    h1 {
-      font-family: "Poetsen One", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: #DC143C !important;
-      margin-bottom: 20px; 
-      text-align: left;
-      width: 100%;
-      margin-bottom: 50px;
-      position: relative;
-    }
-  
-      .title2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-  
-      }
-      .container {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    max-width: 1200px;
-    max-height: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    align-items:center;
+  align-items: center;
+  margin: 2%;
+  font-size: 35px;
+  background-color: #e78091;
+  border-radius: 25px;
 }
 
-     .container1 {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    max-width: 1200px;
-    max-height: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    align-items:center;
+.introContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-    .container2 {
-    display: none !important;
-     position: fixed;
-    justify-content: center;
-    box-sizing: border-box;
-    max-width: 1200px;
-    max-height: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    align-items: center;
+.intro {
+  display: flex;
+  margin: 5%;
+  font-size: 30px;
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
 }
-.slide-out{
-     display: none !important;
-}
-.slide-in{
-     display: none !important;
-}
-    .button-container {
-display: flex;
-justify-content: space-between;
-gap: 50px;
-border-style: none;
-align-items: center;
 
-    }
+h2 {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #dc143c !important;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  max-width: 1200px;
+  max-height: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 1200px;
+  max-height: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.container2 {
+  display: none !important;
+  position: fixed;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 1200px;
+  max-height: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  align-items: center;
+}
+.slide-out {
+  display: none !important;
+}
+.slide-in {
+  display: none !important;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  border-style: none;
+  align-items: center;
+}
 
 .likeButton {
-    display: flex;
-    justify-content: left;
-border-radius: 10%;
-border-style:hidden;
-background: hidden;
-    height: 200px;
-    width: 200px;
-    background-color: transparent;
+  display: flex;
+  justify-content: left;
+  border-radius: 10%;
+  border-style: hidden;
+  background: hidden;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
 }
 
 .dislikeButton {
-    display: flex;
-    justify-content: right;
-border-radius: 10%;
-border-style: hidden;
-background: hidden;
-     height: 200px;
-    width: 200px;
-    background-color: transparent;
+  display: flex;
+  justify-content: right;
+  border-radius: 10%;
+  border-style: hidden;
+  background: hidden;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
 }
 
-      .hidden {
-        display: none;
-      }
-    
-    .slide-in {
-        animation: slide-in 0.5s forwards;
-    }
-    
-    .slide-out {
-        animation: slide-out 0.5s forwards;
-    }
-    
-    @keyframes slide-in {
-        from {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-    
-    @keyframes slide-out {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-    }
+.hidden {
+  display: none;
+}
 
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
 
+.slide-out {
+  animation: slide-out 0.5s forwards;
+}
 
-    .profile-card {
-      background: white;
-      padding: 10px;  
-      border-radius: 10px;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-      max-width: 350px;  
-      margin: 2%;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .profile-card:hover {
-      transform: translateY(-10px);
-    }
-    
-    .profile-image {
-      width: 100%;
-      height: 200px; 
-      border-radius: 10px;
-      object-fit: cover;  
-    }
-    
-    .profile-content {
-      margin-top: 10px;  
-    }
-    
-    .profile-content p {
-      margin: 5px;  
-      font-size: 0.9em;  
-    }
- 
-    .footer {
-      display: inline;
-      margin: 3%;
-      text-align: center;
-    }
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 50%;
-      flex-direction: row;
-    }
-    
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-      margin: 1%;
-    }
-    .fa-instagram {
-      background: #125688;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-pinterest {
-      background: #cb2027;
-      color: white;
-      margin: 1%;
-    }
-    
-    .fa-instagram {
-      background: #125688;
-      margin: 1%;
-    } 
-    
-  .navFinal {
-    margin: 1%;
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
   }
-  .finalFormContainer{
-    display: flex;
-    justify-content: center;
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
-  .finalDateForm{
-    display: flex;
-   
-    margin: 5%;
-    background: white;
-    padding: 10px;  
-    border-radius: 10px;
-    box-shadow: 0 4px 8px crimson;
-    transition: transform 0.3s;
-    margin: 2%;
-    max-width: fit-content;
-    flex-direction: column;
-    font-size: 15px;
-    font-family: "Edu TAS Beginner", cursive;
-    font-style: normal;
-    font-size: 25px;
-    color: #E78091;
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
   }
-  
-  .finalDateForm:hover {
-    transform: translateY(-10px);
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
   }
-    .finalDateExplain{
-      display: flex;
+}
+
+.profile-card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+  max-width: 350px;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+.profile-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-content {
+  margin-top: 10px;
+}
+
+.profile-content p {
+  margin: 5px;
+  font-size: 0.9em;
+}
+
+.footer {
+  display: inline;
+  margin: 3%;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  flex-direction: row;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  margin: 1%;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  margin: 1%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin: 1%;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  margin: 1%;
+}
+
+.fa-instagram {
+  background: #125688;
+  margin: 1%;
+}
+
+.navFinal {
+  margin: 1%;
+}
+.finalFormContainer {
+  display: flex;
+  justify-content: center;
+}
+.finalDateForm {
+  display: flex;
+
+  margin: 5%;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+  margin: 2%;
+  max-width: fit-content;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: "Edu TAS Beginner", cursive;
+  font-style: normal;
+  font-size: 25px;
+  color: #e78091;
+}
+
+.finalDateForm:hover {
+  transform: translateY(-10px);
+}
+.finalDateExplain {
+  display: flex;
   margin: 2%;
   text-align: center;
-  color: #E78091;
-    }
-    #name{
-      margin: 1.5%;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-    }
-    #Cname{
-      margin: 1.5%;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-    }
-    #fancy{
-      margin: 1.5%;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-    }
-    #date{
-      margin: 1.5%;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-  
-    }
-    input[type=submit]{
-      margin: 2%;
-      box-shadow: 0 4px 8px crimson;
-      transition: transform 0.3s;
-      color: crimson;
-    }
-    #response{
-  color:crimson;
+  color: #e78091;
+}
+#name {
+  margin: 1.5%;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+}
+#Cname {
+  margin: 1.5%;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+}
+#fancy {
+  margin: 1.5%;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+}
+#date {
+  margin: 1.5%;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+}
+input[type="submit"] {
+  margin: 2%;
+  box-shadow: 0 4px 8px crimson;
+  transition: transform 0.3s;
+  color: crimson;
+}
+#response {
+  color: crimson;
   font-size: 35px;
   align-self: center;
   max-width: 600px;
   box-shadow: 0 4px 8px crimson;
-    transition: transform 0.3s;
-    margin: 2%;
-    }
+  transition: transform 0.3s;
+  margin: 2%;
+}
