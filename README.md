@@ -17,13 +17,7 @@ JavaScript: To enable dynamic elements, such as like and dislike buttons and per
 Clone the project
 
 ```bash
-  git clone https://github.com/hopeivy12/group-3-ck24ukh4.git
-```
-
-Go to the project directory
-
-```bash
-  cd group-3-ck24ukh4
+  git clone https://github.com/Mahik99/CFG-web-development.git
 ```
 
 Open `index.html` in your web browser to view the site.
