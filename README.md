@@ -8,7 +8,7 @@ The Pawfect Date is a fun and lighthearted desktop website that matches pet owne
 
 HTML: For the structure and layout of the site.
 
-CSS: For styling and design to ensure compatibility across devices.
+CSS: For styling and design to make our website visually appealing.
 
 JavaScript: To enable dynamic elements, such as like and dislike buttons and personalised form submission.
 
