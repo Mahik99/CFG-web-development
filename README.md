@@ -24,7 +24,7 @@ Clone the project
 
 Open `index.html` in your web browser to view the site.
 
-# Heres what our website looks like!
+## Heres what our website looks like!
 
 ![App Screenshot](/images/Homepage.png)
 
