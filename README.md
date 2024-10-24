@@ -12,6 +12,8 @@ CSS: For styling and design to make our website visually appealing.
 
 JavaScript: To enable dynamic elements, such as like and dislike buttons and personalised form submission.
 
+Bootstrap: Used bootstrap to incorporate features such as a carousel.
+
 ## Installation Instructions 🚀:
 
 Clone the project
