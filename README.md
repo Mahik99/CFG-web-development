@@ -35,3 +35,9 @@ Open `index.html` in your web browser to view the site.
 ## Credits:
 
 This project was developed by Group 3 during the Code First Girls web development course. A big thanks to my instructors, mentors, and fellow team members who contributed to this project.
+
+## Team:
+
+- [@Mahik99](https://www.github.com/Mahik99)
+- [@HopeIvy12](https://www.github.com/hopeivy12)
+- [@FHanson15](https://github.com/FHanson15)
